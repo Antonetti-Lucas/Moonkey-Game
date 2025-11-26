@@ -3,7 +3,6 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.UIElements;
 using UnityEngine.Windows;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
 using static UnityEngine.UI.Image;
 
 public class playerController : MonoBehaviour

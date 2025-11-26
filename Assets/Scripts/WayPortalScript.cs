@@ -20,15 +20,10 @@ public class WayPortalScript : MonoBehaviour
             {
                 audioSource.Play();
             }
-            StartCoroutine(delay());
+            Vector3 destino = playerController.respawn.position;
+            playerPai.transform.position = destino; //Teleporta o jogador de volta para o início da fase
+            camVirtual.PreviousStateIsValid = false;
         }
     }
 
-    private IEnumerator delay()
-    {
-        yield return new WaitForSeconds(0.2f); // Cria um delay para combinar com a animação
-        Vector3 destino = playerController.respawn.position;    
-        playerPai.transform.position = destino; //Teleporta o jogador de volta para o início da fase
-        camVirtual.PreviousStateIsValid = false;
-    }
 }
