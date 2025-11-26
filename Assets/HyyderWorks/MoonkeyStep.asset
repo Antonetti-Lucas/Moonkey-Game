@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7064a597d85b0374b80904cbac42a4b5, type: 3}
+  m_Name: MoonkeyStep
+  m_EditorClassIdentifier: Assembly-CSharp::HyyderWorks.Footstepper.FootstepsDatabase
+  stepDistance: 2
+  defaultVolume: 0.7
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  textureFootsteps:
+  - name: 
+    texture: {fileID: 2800000, guid: 20ecd961d98ae3e47890fcda4b532c2a, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: 58fec23d9fe36334e8e6d732b5902673, type: 3}
+    - {fileID: 8300000, guid: ba63bc8b77828b54789ea1ad3495b573, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 2
+  - name: 
+    texture: {fileID: 2800000, guid: eb6aa539edaba6d4aa2805351b19f6e5, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: c3e29988f7b237b4f8fa20ac63012a1d, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 1
+  - name: 
+    texture: {fileID: 2800000, guid: 1d3ccd702cc914442b2d793cb2f9590d, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: f87a00f36dc54174bb3e93decd900ad2, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 0
+  - name: 
+    texture: {fileID: 2800000, guid: 4e31dc6f821f17949a3659be02937e50, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: ace0cc8333cfe9642b173ce3d472a629, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 12
+  - name: 
+    texture: {fileID: 2800000, guid: f2d0074d1eaa92e4e87a62202ebfc086, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: d7260a7f35820ce419d16fdc617fd456, type: 3}
+    - {fileID: 8300000, guid: d7260a7f35820ce419d16fdc617fd456, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 3
+  defaultFootstepSounds:
+  - {fileID: 8300000, guid: d7260a7f35820ce419d16fdc617fd456, type: 3}

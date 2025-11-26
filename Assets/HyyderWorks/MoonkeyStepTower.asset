@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7064a597d85b0374b80904cbac42a4b5, type: 3}
+  m_Name: MoonkeyStepTower
+  m_EditorClassIdentifier: Assembly-CSharp::HyyderWorks.Footstepper.FootstepsDatabase
+  stepDistance: 2
+  defaultVolume: 0.7
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  textureFootsteps:
+  - name: 
+    texture: {fileID: 2800000, guid: ed51fab6e2b25204cbcf1e74ec9faa96, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: c3e29988f7b237b4f8fa20ac63012a1d, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 7
+  - name: 
+    texture: {fileID: 2800000, guid: be610401948b39340a63d0b042b468a8, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: c3e29988f7b237b4f8fa20ac63012a1d, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 6
+  - name: 
+    texture: {fileID: 2800000, guid: 10e836b2f838ad444b27c10d03f3f1df, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: ace0cc8333cfe9642b173ce3d472a629, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 5
+  - name: 
+    texture: {fileID: 2800000, guid: 4d201ca970723d747b91107797e6e5c0, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: d7260a7f35820ce419d16fdc617fd456, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 4
+  - name: 
+    texture: {fileID: 2800000, guid: a80c3e0464351f844a1883eb367fde00, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: ace0cc8333cfe9642b173ce3d472a629, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 3
+  - name: 
+    texture: {fileID: 2800000, guid: 55b200bb0604bee48bb702a9f7c4b19c, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: ace0cc8333cfe9642b173ce3d472a629, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 0
+  - name: 
+    texture: {fileID: 2800000, guid: f1ca8fd39ed8cdc4aaa00b778d6ffada, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: ace0cc8333cfe9642b173ce3d472a629, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 1
+  - name: 
+    texture: {fileID: 2800000, guid: 9a8786333d698fe44a4e045a04d39402, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: e28a1fc76e663a34a8f9f9130c2ba42f, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 2
+  - name: 
+    texture: {fileID: 2800000, guid: 6466d04b78ae28944b8d38d748c2eabc, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: c3e29988f7b237b4f8fa20ac63012a1d, type: 3}
+    volumeMultiplier: 1
+    pitchVariation: 0.1
+    terrainLayerIndex: 8
+  defaultFootstepSounds:
+  - {fileID: 8300000, guid: d7260a7f35820ce419d16fdc617fd456, type: 3}
